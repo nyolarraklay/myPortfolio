@@ -86,49 +86,18 @@ body {
   font-weight: 700;
   line-height: 1.2;
 }
-/* .home-content h1:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #081b29;
-  animation: showRight 1s ease forwards;
-  animation-delay: 1s;
-} */
+
 .home-content h3 {
   position: relative;
   font-size: 30px;
   font-weight: 700;
   color: rgb(21, 216, 206);
 }
-.home-content h3::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #081b29;
-  animation: showRight 1s ease forwards;
-  animation-delay: 1.3s;
-}
+
 .home-content p {
   position: relative;
   font-size: 16px;
   margin: 20px 0 40px;
-}
-.home-content p::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #081b29;
-  animation: showRight 1s ease forwards;
-  animation-delay: 1.6s;
 }
 .home-content .btn-box {
   position: relative;
@@ -137,18 +106,7 @@ body {
   width: 345px;
   height: 50px;
 }
-.home-content .btn-box::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  background: #081b29;
-  animation: showRight 1s ease forwards;
-  animation-delay: 2.2s;
-  z-index: 2;
-}
+
 .btn-box a {
   position: relative;
   display: inline-flex;
@@ -213,7 +171,7 @@ body {
   height: 100%;
   background: rgba(36, 101, 149, 1);
   animation: showRight 1s ease forwards;
-  animation-delay: 2.5s;
+  animation-delay: 1s;
   z-index: 2;
 }
 .home-social a {
@@ -477,6 +435,7 @@ span {
   .home-content h1 {
     display: flex;
     flex-direction: column;
+    font-size: 7vw;
   }
   .home-social {
     width: 160px;
