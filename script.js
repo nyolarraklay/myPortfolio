@@ -18,3 +18,4 @@ function redirectButtonstoContact() {
   location.href = "contact.html";
 }
 contactMe.addEventListener("click", redirectButtonstoContact);
+hireMe.addEventListener("click", redirectButtons);
