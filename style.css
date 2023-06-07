@@ -511,11 +511,13 @@ span {
     margin-top: 5rem;
     flex-direction: column;
     justify-content: space-around;
+    background-size: 35vw;
   }
 
   .home-social {
     position: initial;
     align-self: flex-start;
+    margin-left: 0.5rem;
   }
   .home-social::before {
     background: linear-gradient(
