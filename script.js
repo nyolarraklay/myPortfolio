@@ -19,3 +19,32 @@ function redirectButtonstoContact() {
 }
 contactMe.addEventListener("click", redirectButtonstoContact);
 hireMe.addEventListener("click", redirectButtons);
+
+// socialmedia
+const instagram = document.querySelector(".instagram");
+const facebook = document.querySelector(".facebook");
+const linkedin = document.querySelector(".linkedin");
+
+instagram.addEventListener(
+  "click",
+
+  function redirect() {
+    location.href = "https://www.instagram.com/";
+  }
+);
+
+facebook.addEventListener(
+  "click",
+
+  function redirect() {
+    location.href = "https://www.facebook.com/";
+  }
+);
+
+linkedin.addEventListener(
+  "click",
+
+  function redirect() {
+    location.href = "https://www.linkedin.com/";
+  }
+);
