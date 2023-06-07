@@ -505,3 +505,28 @@ span {
     max-width: 200px;
   }
 }
+
+@media (max-height: 375px) {
+  .home {
+    margin-top: 5rem;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .home-social {
+    position: initial;
+    align-self: flex-start;
+  }
+  .home-social::before {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(8, 27, 41, 1) 65%,
+      rgba(36, 101, 149, 1) 100%
+    );
+  }
+  .contact,
+  .portFolio {
+    margin-top: 25vh;
+  }
+}
