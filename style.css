@@ -517,7 +517,7 @@ span {
   .home-social {
     position: initial;
     align-self: flex-start;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
   }
   .home-social::before {
     background: linear-gradient(
